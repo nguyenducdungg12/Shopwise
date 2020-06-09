@@ -1,0 +1,28 @@
+:root{
+    --primary-color:#FF324D;
+}
+.active{
+    color:var(--primary-color);
+}
+@keyframes hideIn {
+    from{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes LeftTo {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+        scale: 0.7;
+    }
+    to{
+        scale: 1;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
