@@ -1,5 +1,11 @@
 :root{
     --primary-color:#FF324D;
+    --yellow-color:#FF9F00;
+    --green-color:#28a745;
+    --red-color:#dc3545;
+}
+.activeHide{
+    opacity: 1;
 }
 .active{
     color:var(--primary-color);
@@ -26,3 +32,18 @@
         transform: translateX(0);
     }
 }
+.active_product{
+    display:block;
+}
+.yellow-color{
+    background-color:var(--yellow-color);
+}
+.red-color{
+    background:var(--red-color);
+
+}
+.green-color{
+   background:var(--green-color);
+
+}
+
